@@ -7,6 +7,7 @@ import resultReducer from "./result_reducer";
 const rootReducer = combineReducers({
   questions: questionReducer,
   result: resultReducer,
+  devTool: false,
 });
 
 /** create store with reducer */
